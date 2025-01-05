@@ -1,27 +1,38 @@
 # Préparation du serveur LAMP sous Debian
 Tout d’abord, passez en root en tapant :
-'''su'''
+```
+su
+```
 
 Vérifiez que votre système est à jour :
-'''apt-get update && apt-get upgrade'''
+```
+apt-get update && apt-get upgrade
+```
 
 Installez ensuite tous les outils nécessaires pour obtenir un serveur web LAMP (Apache MySQL/MariaDB PHP) à l’aide de la commande :
-
-'''
+```
 apt install apache2 default-mysql-server php8.2 -y
-'''
+```
 
 Activez Apache et MariaDB au démarrage :
-'''systemctl enable apache2 mariadb'''
+```
+systemctl enable apache2 mariadb
+```
 
 Vérifiez que vous avez bien la dernière version de Perl :
+```
 apt install perl -y
+```
 
 Installez toutes les dépendances requises pour faire fonctionner GLPI :
+```
 apt install php-ldap php-imap php-apcu php-xmlrpc php-cas php-mysqli php-mbstring php-curl php-gd php-simplexml php-xml php-intl php-zip php-bz2 -y
+```
 
 Pour finir, rechargez Apache pour qu’il prenne en compte les modifications :
+```
 systemctl reload apache2
+```
 
 # Installation de GLPI
 
