@@ -2,6 +2,12 @@
 Portfolio BTS SIO Option A
 
 Service Informatique aux Organisations : Solutions d'Infrastructure et Système Réseau
+- [Profil](#profil)
+- [Formation](#formation)
+- [Epreuves](#epreuves)
+  - [Epreuve E4](#epreuve-e4)
+  - [Epreuve E5](#epreuve-e5)
+
 
 ## Profil
 [CV](./src/CV_SIO.pdf)
