@@ -54,8 +54,43 @@ Sélectionnez "zone principale" et cochez "Enregistrer dans la zone Active Direc
 Sélectionnez l'étendue des DNS exécutés dans ce domaine, puis cliquez sur suivant
 ![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_24_06.png)
 
-Sélectionnez la "zone de recherche inversée IPv4"
+Sélectionnez la "zone de recherche inversée IPv4", puis cliquez sur suivant
 ![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_24_13.png)
+
+Saisir les 3 premiers nombres communs aux adresses IPv4 du réseau, puis cliquez sur suivant
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_24_45.png)
+
+Autorisez toutes les mises à jours et cliquez sur suivant
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_26_08.png)
+
+Cliquez sur "Terminer"
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_26_20.png)
+
+Dans le serveur, dans le dossier Zones de recherche directe, cliquez sur le sous dossier du nom de domaine
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_27_23.png)
+
+Faire un double-clique sur le fichier portant le nom du serveur
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_27_39.png)
+
+Cochez "Mettre à jour l'enregistrement de pointeur (PTR)", et cliquez sur Appliquer puis Fermer
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_27_48.png)
+
+Dans le gestionnaire de serveur, cliquez sur Ajouter des rôles et des fonctionnalités
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_30_15.png)
+
+Cliquez sur suivant jusqu'à la page "rôle du serveur"
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_30_24.png)
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_30_29.png)
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_30_36.png)
+
+Cochez le rôle "Serveur DHCP"
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_31_10.png)
+
+Cliquez sur suivant jusqu'à la page "Confirmation"
+Cliquez sur "Installer" et fermer la fenêtre
+Dans le gestionnaire de serveur
+
+
 
 
 
