@@ -55,7 +55,7 @@ Le BTS est un diplôme conçu pour une insertion professionnelle. Cependant, ave
 | Compétences mises en oeuvre | Période | Gérer le patrimoine informatique | Répondre aux incidents et aux demandes d’assistance et d’évolution | Développer la présence en ligne de l’organisation | Travailler en mode projet | Mettre à disposition des utilisateurs un service informatique | Organiser son développement professionnel |
 | --------------------------- | ---------- |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 | Mise en place d’un serveur Active Directory avec les service AD DS, DNS, DHCP et GPO | | X | | | | X | |
-| [Mise en place d’un service d’assistance aux utilisateurs du réseau grâce au logiciel GLPI](./src/glpi/index.md) | | | X | | | X | |
+| [Mise en place d’un service d’assistance aux utilisateurs du réseau grâce au logiciel GLPI](./src/glpi/documentationGLPI.md) | | | X | | | X | |
 | Mise en place d’un serveur web Apache avec un serveur Reverse Proxy Nginx | | | | X | | X | |
 | Segmentation d’un réseau en VLAN sur Packet Tracer | | X | | | | X | |
 | Création d’un portfolio accessible par Internet | | | | X | | | |
