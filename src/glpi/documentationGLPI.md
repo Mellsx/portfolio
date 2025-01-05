@@ -9,8 +9,9 @@ Vérifiez que votre système est à jour :
 ```
 apt-get update && apt-get upgrade
 ```
-
 ![Screenshot_root&update](https://github.com/Mellsx/portfolio/blob/main/src/glpi/VirtualBox_DebGLPI_03_01_2025_12_47_46.png)
+
+
 Installez ensuite tous les outils nécessaires pour obtenir un serveur web LAMP (Apache MySQL/MariaDB PHP) à l’aide de la commande :
 ```
 apt install apache2 default-mysql-server php8.2 -y
