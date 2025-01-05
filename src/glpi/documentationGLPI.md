@@ -1,6 +1,6 @@
 # Mise en place d’un service d’assistance aux utilisateurs du réseau grâce au logiciel GLPI
 - [Préparation du serveur LAMP sous Debian](#pr%C3%A9paration-du-serveur-lamp-sous-debian)
-- [Installation de GLPI] (#installation-de-glpi)
+- [Installation de GLPI](#installation-de-glpi)
 
 ## Préparation du serveur LAMP sous Debian
 Tout d’abord, passez en root en tapant :
