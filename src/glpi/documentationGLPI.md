@@ -16,22 +16,25 @@ Installez ensuite tous les outils nécessaires pour obtenir un serveur web LAMP 
 ```
 apt install apache2 default-mysql-server php8.2 -y
 ```
+![Screenshot_root&update](https://github.com/Mellsx/portfolio/blob/main/src/glpi/VirtualBox_DebGLPI_03_01_2025_12_49_36.png)
 
 Activez Apache et MariaDB au démarrage :
 ```
 systemctl enable apache2 mariadb
 ```
+![Screenshot_root&update](https://github.com/Mellsx/portfolio/blob/main/src/glpi/VirtualBox_DebGLPI_03_01_2025_12_50_17.png)
 
 Vérifiez que vous avez bien la dernière version de Perl :
 ```
 apt install perl -y
 ```
+![Screenshot_root&update](https://github.com/Mellsx/portfolio/blob/main/src/glpi/VirtualBox_DebGLPI_03_01_2025_12_51_00.png)
 
 Installez toutes les dépendances requises pour faire fonctionner GLPI :
 ```
 apt install php-ldap php-imap php-apcu php-xmlrpc php-cas php-mysqli php-mbstring php-curl php-gd php-simplexml php-xml php-intl php-zip php-bz2 -y
 ```
-
+![Screenshot_root&update](https://github.com/Mellsx/portfolio/blob/main/src/glpi/VirtualBox_DebGLPI_03_01_2025_12_51_53.png)
 Pour finir, rechargez Apache pour qu’il prenne en compte les modifications :
 ```
 systemctl reload apache2
@@ -48,6 +51,7 @@ Ici, effectuez le téléchargement de GLPI :
 ```
 wget https://github.com/glpi-project/glpi/releases/download/10.0.6/glpi-10.0.6.tgz
 ```
+![Screenshot_root&update](https://github.com/Mellsx/portfolio/blob/main/src/glpi/VirtualBox_DebGLPI_03_01_2025_12_53_32.png)
 
 Une fois fait, décompressez le dans le dossier HTML, dossier par défaut où placer ses pages ou interfaces web :
 ```
@@ -63,6 +67,7 @@ Modifiez les droits d’accès à ce dossier pour la même raison :
 ```
 chmod -R 775 /var/www/html/glpi
 ```
+![Screenshot_root&update](https://github.com/Mellsx/portfolio/blob/main/src/glpi/VirtualBox_DebGLPI_03_01_2025_12_55_09.png)
 
 Passons à la configuration de la base de données. Tout d’abord, lancez MariaDB en tant que root :
 ```
@@ -115,7 +120,7 @@ Sélectionner la base de donnée "glpi", puis cliquez sur "Continuer"
 
 
 Cliquez sur "Utiliser GLPI"
-
+![Screenshot_root&update](https://github.com/Mellsx/portfolio/blob/main/src/glpi/VirtualBox_DebGLPI_03_01_2025_13_01_14.png)
 
 Saisir les identifiants automatique du compte administrateur
 
