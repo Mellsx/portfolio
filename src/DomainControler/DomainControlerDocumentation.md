@@ -1,5 +1,12 @@
 # Création d'un controleur de domaine sous Windows Server 2019, avec les services AD DS, DNS, DHCP
 
+- [Installation des rôles AD DS et DNS](#Installation des rôles AD DS et DNS)
+- [Configuration de l'Active Directory](#Configuration de l'Active Directory)
+- [Configuration du DNS](#Configuration du DNS)
+- [Installation du rôle DHCP](#Installation du rôle DHCP)
+- [Configuration DHCP](#Configuration DHCP)
+
+## Installation des rôles AD DS et DNS
 Pour attribuer le rôle de contrôleur de domaine au serveur, Ouvrez le « Gestionnaire de Serveur », cliquez sur le menu « Gérer », puis « Ajouter des rôles et fonctionnalités »
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/1.png)
 
@@ -16,6 +23,7 @@ Passez les pages grâce au bouton « Suivant », jusqu’à la page de Confirm
 Cliquez sur le bouton « Installer » pour lancer l’installation des services choisis.  
 Une fois l’installation terminé, fermer la fenêtre. 
 
+## Configuration de l'Active Directory
 Dans le Gestionnaire de serveur, Cliquez sur le drapeau, puis sur « Promouvoir ce serveur en contrôleur de domaine »
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/5.png)
 
@@ -35,6 +43,7 @@ Aucune modification pour les chemins d’accès
 
 Après l’installation, le redémarrage se fera automatiquement.
 
+## Configuration du DNS
 Dans le gestionnaire de serveur, aller dans la section DNS.
 ![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_18_20.png)
 
@@ -74,6 +83,7 @@ Faire un double-clique sur le fichier portant le nom du serveur
 Cochez "Mettre à jour l'enregistrement de pointeur (PTR)", et cliquez sur Appliquer puis Fermer
 ![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_27_48.png)
 
+## Installation du rôle DHCP
 Dans le gestionnaire de serveur, cliquez sur Ajouter des rôles et des fonctionnalités
 ![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_30_15.png)
 
@@ -89,6 +99,7 @@ Cliquez sur suivant jusqu'à la page "Confirmation"
 Cliquez sur "Installer" et fermer la fenêtre
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2017-20-09.png)
 
+## Configuration DHCP
 Dans le gestionnaire de serveur, cliquez sur le drapeau, puis sur "Terminer la configuration DHCP"
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2017-20-33.png)
 
