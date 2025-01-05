@@ -1,5 +1,4 @@
-# Création d'un controleur de domaine sous Windows Server 2019
-## Mise en place du service ADDS
+# Création d'un controleur de domaine sous Windows Server 2019, avec les services AD DS, DNS, DHCP
 
 Pour attribuer le rôle de contrôleur de domaine au serveur, Ouvrez le « Gestionnaire de Serveur », cliquez sur le menu « Gérer », puis « Ajouter des rôles et fonctionnalités »
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/1.png)
@@ -117,5 +116,16 @@ Saisissez le nom de l'étendue que vous voulez créer, puis cliquez sur suivant
 Inscrire les adresses IP de début et de fin de la plage d'adresse à distribuer, adapter le masque sous réseau à la taille de la plage donnée, puis cliquez sur suivant.
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-36_43.png)
 
+Cliquez sur suivant
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-36-46.png)
+
+Saisissez la durée limites d'atribution d'une adresse IP à une machine,puis cliquez sur suivant
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-36-52.png)
+
+Ajouter l'adresse du routeur du réseau
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-37-08.png)
+
+Cliquez sur "Suivant" jusqu'à la page de fin, où vous cliquerez sur "Terminer"
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-38-08.png)
 
 
