@@ -88,10 +88,34 @@ Cochez le rôle "Serveur DHCP"
 
 Cliquez sur suivant jusqu'à la page "Confirmation"
 Cliquez sur "Installer" et fermer la fenêtre
-Dans le gestionnaire de serveur
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2017-20-09.png)
 
+Dans le gestionnaire de serveur, cliquez sur le drapeau, puis sur "Terminer la configuration DHCP"
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2017-20-33.png)
 
+Cliquez sur "Suivant"
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-33-20.png)
 
+Cliquez sur "Valider"
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-33-27.png)
+
+Cliquez sur "Fermer"
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-33-31.png)
+
+Dans le Gestionnaire de serveur, aller dans la section DHCP, faites un clique droit sur le serveur et choissisez "Gestionnaire DHCP"
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-34-43.png)
+
+Dans la section du serveur, faites un clique droit sur "IPv4", et choisisez "Nouvelle étendue"
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-35_19.png)
+
+Cliquez sur suivant
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-35-22.png)
+
+Saisissez le nom de l'étendue que vous voulez créer, puis cliquez sur suivant
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-35-34.png)
+
+Inscrire les adresses IP de début et de fin de la plage d'adresse à distribuer, adapter le masque sous réseau à la taille de la plage donnée, puis cliquez sur suivant.
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-05%2015-36_43.png)
 
 
 
