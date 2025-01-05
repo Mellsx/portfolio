@@ -36,4 +36,27 @@ Aucune modification pour les chemins d’accès
 
 Après l’installation, le redémarrage se fera automatiquement.
 
+Dans le gestionnaire de serveur, aller dans la section DNS.
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_18_20.png)
+
+Faites un clique droit sur la ligne du serveur, et cliquez sur "Gestionnaire DNS"
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_19_18.png)
+
+Dans le serveur, faites un clique droit sur le dossier "Zone de recherche inversée" et sélectionnez "Nouvelle zone"
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_22_00.png)
+
+Cliquez sur suivant
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_22_21.png)
+
+Sélectionnez "zone principale" et cochez "Enregistrer dans la zone Active Directory", puis cliquez sur suivant
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_23_31.png)
+
+Sélectionnez l'étendue des DNS exécutés dans ce domaine, puis cliquez sur suivant
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_24_06.png)
+
+Sélectionnez la "zone de recherche inversée IPv4"
+![img](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/VirtualBox_StudiSRV01_05_01_2025_15_24_13.png)
+
+
+
 
