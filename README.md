@@ -5,8 +5,8 @@ Service Informatique aux Organisations : Solutions d'Infrastructure et Système 
 - [Profil](#profil)
 - [Formation](#formation)
 - [Epreuves](#epreuves)
-  - [Epreuve E4](#epreuve-e4)
-  - [Epreuve E5](#epreuve-e5)
+  - [Epreuve E4](#epreuve-e4--support-et-mise-%C3%A0-disposition-de-services-informatiques)
+  - [Epreuve E5](#epreuve-e5--administration-des-syst%C3%A8mes-et-des-r%C3%A9seaux)
 
 
 ## Profil
