@@ -129,5 +129,6 @@ Saisir les identifiants automatique du compte administrateur
 Indentifiant : glpi
 
 Mot de passe : glpi
+
 ![ModulesGLPI](https://github.com/Mellsx/portfolio/blob/main/src/glpi/inst-glpi-vm-lin-deb-part1-i41_1.png)
 
