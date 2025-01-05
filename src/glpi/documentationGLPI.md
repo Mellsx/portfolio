@@ -105,7 +105,7 @@ Sélectionnez la langue souhaitée, puis cliquez sur OK
 
 
 Cliquez sur Continuer
-
+![ModulesGLPI](https://github.com/Mellsx/portfolio/blob/main/src/glpi/inst-glpi-vm-lin-deb-part1-i36_1.png)
 
 Dans l'espace texte sous Serveur SQL, saisir "localhost"
 
@@ -114,9 +114,11 @@ Saisir les identifiants de connexion à la base de donnée saisie dans les ligne
 Utilisateur SQL : glpiuser
 
 Mot de passe SQL : Password
+![connexionDB](https://github.com/Mellsx/portfolio/blob/main/src/glpi/inst-glpi-vm-lin-deb-part1-i37_1.png)
 
 
 Sélectionner la base de donnée "glpi", puis cliquez sur "Continuer"
+![ModulesGLPI](https://github.com/Mellsx/portfolio/blob/main/src/glpi/inst-glpi-vm-lin-deb-part1-i38_1.png)
 
 
 Cliquez sur "Utiliser GLPI"
@@ -127,4 +129,5 @@ Saisir les identifiants automatique du compte administrateur
 Indentifiant : glpi
 
 Mot de passe : glpi
+![ModulesGLPI](https://github.com/Mellsx/portfolio/blob/main/src/glpi/inst-glpi-vm-lin-deb-part1-i41_1.png)
 
