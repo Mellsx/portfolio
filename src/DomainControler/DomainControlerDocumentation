@@ -2,10 +2,10 @@
 ## Mise en place du service ADDS
 
 Pour attribuer le rôle de contrôleur de domaine au serveur, Ouvrez le « Gestionnaire de Serveur », cliquez sur le menu « Gérer », puis « Ajouter des rôles et fonctionnalités »
-![](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/1.png)
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/1.png)
 
 Dans la section « Type d’installation », sélectionnez « Installation basée sur un rôle ou une fonctionnalité »
-![](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/2.png)
+![image](https://github.com/Mellsx/portfolio/blob/main/src/DomainControler/2.png)
 
 Sélectionnez le serveur actuel dans le pool de serveurs
 
