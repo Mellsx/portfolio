@@ -1,10 +1,10 @@
 # Création d'un controleur de domaine sous Windows Server 2019, avec les services AD DS, DNS, DHCP
 
-- [Installation des rôles AD DS et DNS](#Installation des rôles AD DS et DNS)
-- [Configuration de l'Active Directory](#Configuration de l'Active Directory)
-- [Configuration du DNS](#Configuration du DNS)
-- [Installation du rôle DHCP](#Installation du rôle DHCP)
-- [Configuration DHCP](#Configuration DHCP)
+- [Installation des rôles AD DS et DNS](#installation%20des%20rôles%20AD%20DS%20et%20DNS)
+- [Configuration de l'Active Directory](#configuration%20de%20l'active%20directory)
+- [Configuration du DNS](#Configuration%20du%20DNS)
+- [Installation du rôle DHCP](#Installation%20du%20rôle%20DHCP)
+- [Configuration DHCP](#Configuration%20DHCP)
 
 ## Installation des rôles AD DS et DNS
 Pour attribuer le rôle de contrôleur de domaine au serveur, Ouvrez le « Gestionnaire de Serveur », cliquez sur le menu « Gérer », puis « Ajouter des rôles et fonctionnalités »
