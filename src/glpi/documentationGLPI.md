@@ -93,20 +93,31 @@ exit;
 
 Une fois toutes ces étapes réalisées, vous avez maintenant accès à l’installation de GLPI. Pour constater le bon fonctionnement de votre réalisation, ouvrez un navigateur web tel que Firefox et allez à l’adresse suivante : `http://localhost/glpi`
 
+
 Sélectionnez la langue souhaitée, puis cliquez sur OK
+
 
 Cliquez sur Continuer
 
+
 Dans l'espace texte sous Serveur SQL, saisir "localhost"
+
 Saisir les identifiants de connexion à la base de donnée saisie dans les lignes de commande précedentes
+
 Utilisateur SQL : glpiuser
+
 Mot de passe SQL : Password
+
 
 Sélectionner la base de donnée "glpi", puis cliquez sur "Continuer"
 
+
 Cliquez sur "Utiliser GLPI"
 
+
 Saisir les identifiants automatique du compte administrateur
+
 Indentifiant : glpi
+
 Mot de passe : glpi
 
