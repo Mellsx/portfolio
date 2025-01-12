@@ -4,11 +4,42 @@
 - [Installation de Windows Server 2019](#installation%20de%20Windows%20server%202019)
 - [Installation de Debian](#installation%20de%20Debian)
 
-## Création d'une machine virtuelle
+
 ## Création d'un réseau virtuel
+Cliquer sur l'icone de liste/sommaire à droite d'"Outils", et cliquer sur réseau.
+Aller dans l'onglet "NAT networks", et cliquer sur l'icone "Créer", au-dessus des onglets.
+Nommer votre réseau.
+Choisir un préfixe d'adresse IPv4.
+Décocher "Enable DHCP" si vous allez créer votre propre serveur DHCP.
+Cliquer sur "Appliquer pour créer le réseau".
+
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vmInstall/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2008-30-40.png)
+
+## Création d'une machine virtuelle
+Pour initier la création d'une nouvelle VM, cliquer sur l'icone "Nouvelle".
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vmInstall/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2008-13-44.png)
+
+Dans la section "Name and Operating System",
+Saisir le nom de la machine virtuelle,
+Sélectionner l'image ISO du système d'exploitation à virtualiser.
+Cocher la case "Skip Unattended Installation".
+
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vmInstall/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2008-13-10.png)
+
+Dans la section "Hardware",
+Choisir la quantité de mémoire vive (RAM) utillisable par la machine.
+Choisir le nombre de coeur utilisable par la machine.
+
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vmInstall/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2008-13-16.png)
+
+Dans la section "Hard Disk",
+Choisir la localisation et le nom du fichier de sauvegarde du contenu de la VM (Il est recommandé de laisser les valeurs saisies automatiquement).
+Choisir la taille maximale du disque virtuel de la VM.
+Pour avoir un espace de stockage dynamique, décocher la mention "Pre-allocate Full Size".
+
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vmInstall/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2008-13-16.png)
 
 ## Installation de Windows Server 2019
-
 Choisir les formatages liés à votre région, et cliquer sur "Suivant".
 ![img](https://github.com/Mellsx/portfolio/blob/main/src/vmInstall/VirtualBox_WinServInstall_12_01_2025_08_34_03.png)
 
