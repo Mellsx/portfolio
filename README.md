@@ -60,13 +60,13 @@ Le BTS est un diplôme conçu pour une insertion professionnelle. Cependant, ave
 
 | Compétences mises en oeuvre | Période | Gérer le patrimoine informatique | Répondre aux incidents et aux demandes d’assistance et d’évolution | Développer la présence en ligne de l’organisation | Travailler en mode projet | Mettre à disposition des utilisateurs un service informatique | Organiser son développement professionnel |
 | --------------------------- | ---------- |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| Mise en place d’un serveur Active Directory avec les service AD DS, DNS, DHCP et GPO | | X | | | | X | |
+| [Mise en place d’un serveur Active Directory avec les service AD DS, DNS, DHCP et GPO](./src/DomainControler/DomainControlerDocumentation.md) | | X | | | | X | |
 | [Mise en place d’un service d’assistance aux utilisateurs du réseau grâce au logiciel GLPI](./src/glpi/documentationGLPI.md) | | | X | | | X | |
 | Mise en place d’un serveur web Apache avec un serveur Reverse Proxy Nginx | | | | X | | X | |
 | Segmentation d’un réseau en VLAN sur Packet Tracer | | X | | | | X | |
 | Création d’un portfolio accessible par Internet | | | | X | | | |
 | Projet de prise en main Git et GitHub | | | | X | X | | |
-| Installation de VM Windows 10, Windows Server 2019, Debian, Ubuntu | | X | | | | | X |
+| [Installation de VM Windows Server 2019 et Debian](./src/vmInstall/vmInstall-documentation.md) | | X | | | | | X |
 | Simuler un réseau professionnel à partir des outils Virtualbox et GNS3 | | X | | | | X | X |
 
 ### Epreuve E5 : Administration des Systèmes et des Réseaux
