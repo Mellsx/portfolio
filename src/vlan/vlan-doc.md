@@ -37,6 +37,8 @@ Switch(config-vlan) #int fa0/1
 Switch(config-if) #switchport mode access
 Switch(config-if) #switchport access vlan 10
 ```
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vlan/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2019-21-16.png)
+
 Associer le Laptop (fa0/2 du switch) au VLAN 20
 ```
 Switch(config-if) #vlan 20 (pour le VLAN du PC)
@@ -44,6 +46,8 @@ Switch(config-vlan) #int fa0/2
 Switch(config-if) #switchport mode access
 Switch(config-if) #switchport access vlan 20
 ```
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vlan/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2019-22-31.png)
+
 Vérifier la création des deux VLAN avec la commande
 ```
 Switch(config-if) #do show vlan
