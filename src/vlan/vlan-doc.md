@@ -27,6 +27,7 @@ Switch(config-if) #int fa0/2
 Switch(config-if) #no shut
 Switch(config-if) # exit
 ```
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vlan/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2019-07-38.png)
 
 ## Création des VLAN
 Associer le Desktop (fa0/1 du switch) au VLAN 10
