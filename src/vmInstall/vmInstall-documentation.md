@@ -8,6 +8,7 @@
 ## Création d'un réseau virtuel
 ## Installation de Windows Server 2019
 ## Installation de Debian
+
 Choisir l'"instalation graphique".
 ![img](https://github.com/Mellsx/portfolio/blob/main/src/vmInstall/VirtualBox_DebInstall_12_01_2025_08_41_43.png)
 
