@@ -1,15 +1,23 @@
 # Ségmentation logique d'un réseau sur CISCO Packet Tracer
 ## Création d'un réseau
 Placer deux machines de d'accès utilisateur (ici un desktop et un laptop) et un commutateur (switch)
+
 Relier chacune des machines end point au switch
+
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vlan/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2018-59-49.png)
+
 Dans le desktop : 
-  configurer l'adresse IPv4 (192.168.10.10)
-  saisir le masque de sous-réseau (255.255.255.0)
+- configurer l'adresse IPv4 (192.168.10.10)
+- saisir le masque de sous-réseau (255.255.255.0)
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vlan/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2019-02-52.png)
+
 Dans le laptop : 
-  configurer l'adresse IPv4 (192.168.20.10)
-  saisir le masque de sous-réseau (255.255.255.0)
+- configurer l'adresse IPv4 (192.168.20.10)
+- saisir le masque de sous-réseau (255.255.255.0)
+![img](https://github.com/Mellsx/portfolio/blob/main/src/vlan/Capture%20d%E2%80%99%C3%A9cran%20du%202025-01-12%2019-04-29.png)
+
 Dans le switch :
-  Allumer chaque interface physique (fa0/1; fa0/2)  
+- Allumer chaque interface physique (fa0/1; fa0/2) 
 ```
 Switch >enable (ou « en »)
 Switch #conf t (ou configure terminal)
