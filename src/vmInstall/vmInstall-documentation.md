@@ -1,6 +1,6 @@
 # Création de machines virtuelles sur VirtualBox
-- [Création d'une machine virtuelle](#creation%20d'une%20machine%20virtuelle)
-- [Création d'un réseau](#creation%20d'un%réseau%20virtuel)
+- [Création d'une machine virtuelle](#creation-d'une-machine-virtuelle)
+- [Création d'un réseau](#creation-d'un-réseau-virtuel)
 - [Installation de Windows Server 2019](#installation-de-windows-server-2019)
 - [Installation de Debian](#installation-de-debian)
 
