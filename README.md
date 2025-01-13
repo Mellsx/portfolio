@@ -63,7 +63,7 @@ Le BTS est un diplôme conçu pour une insertion professionnelle. Cependant, ave
 | [Mise en place d’un serveur Active Directory avec les service AD DS, DNS, DHCP et GPO](./src/DomainControler/DomainControlerDocumentation.md) | | X | | | | X | |
 | [Mise en place d’un service d’assistance aux utilisateurs du réseau grâce au logiciel GLPI](./src/glpi/documentationGLPI.md) | | | X | | | X | |
 | Mise en place d’un serveur web Apache avec un serveur Reverse Proxy Nginx | | | | X | | X | |
-| Segmentation d’un réseau en VLAN sur Packet Tracer | | X | | | | X | |
+| [Segmentation d’un réseau en VLAN sur Packet Tracer](./src/vlan/vlan-doc.md) | | X | | | | X | |
 | Création d’un portfolio accessible par Internet | | | | X | | | |
 | Projet de prise en main Git et GitHub | | | | X | X | | |
 | [Installation de VM Windows Server 2019 et Debian](./src/vmInstall/vmInstall-documentation.md) | | X | | | | | X |
