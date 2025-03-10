@@ -1,3 +1,5 @@
+# Service de partage de fichier
+
 Dans le « Gestionnaire de serveur », cliquez sur « Gérer » et sur « Ajouter des rôles et fonctionnalités ».
 
 La fenêtre suivante apparaît, c'est l'Assistant d'installation.
