@@ -1,13 +1,13 @@
 
 Config 1 : 
 
-![https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-03-44.png]
-![https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-05-03.png]
+![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-03-44.png)
+![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-05-03.png)
 
-![https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-03-37.png]
-![https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-05-45.png]
+![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-03-37.png)
+![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-05-45.png)
 
-![https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-03-56.png]
+![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture d’écran du 2025-03-24 20-03-56.png)
 ```
 config
 set interfaces ethernet eth0 address 10.3.40.1/24
