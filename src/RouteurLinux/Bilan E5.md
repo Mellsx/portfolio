@@ -43,6 +43,7 @@ set nat source rule 20 translation adresse masquerade
 Abandon du routeur VyOS
 
 Création d'une machine avec un OS Debian pour servir de routeur
+
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Pasted%20image%2020250401183614.png)
 
 Dans le terminal :
