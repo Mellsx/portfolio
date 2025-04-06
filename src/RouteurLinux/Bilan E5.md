@@ -39,3 +39,16 @@ set nat source rule 20 outbound-interface name eth1
 set nat source rule 20 source address 10.3.40.0/24
 set nat source rule 20 translation adresse masquerade
 ```
+
+Abandon du routeur VyOS
+
+Création d'une machine avec un OS Debian pour servir de routeur
+![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Pasted%20image%2020250401183614.png)
+
+Dans le terminal :
+```
+ip route add 10.3.40.0/24 via 10.3.40.1
+ip route add 10.0.160.0/24 via 10.0.160.1
+```
+
+ping de 10.0.160.2 vers 10.3.40.2 fonctionne et vice-versa
