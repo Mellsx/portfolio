@@ -1,11 +1,21 @@
+2 réseaux NAT
 
-Config 1 : 
+Vitaux - IPv4 : 10.0.160.0/24
+
+Direction - IPv4 : 10.3.40.0/24
+
+---
+VM1 - Vitaux - Windows 10
 
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture%20d%E2%80%99%C3%A9cran%20du%202025-03-24%2020-03-44.png)
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture%20d%E2%80%99%C3%A9cran%20du%202025-03-24%2020-05-03.png)
 
+VM2 - Direction - Windows 10
+
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture%20d%E2%80%99%C3%A9cran%20du%202025-03-24%2020-03-37.png)
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture%20d%E2%80%99%C3%A9cran%20du%202025-03-24%2020-05-45.png)
+
+VM3 - Routeur - VyOS
 
 ![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture%20d%E2%80%99%C3%A9cran%20du%202025-03-24%2020-03-56.png)
 ```
@@ -40,7 +50,18 @@ set nat source rule 20 source address 10.3.40.0/24
 set nat source rule 20 translation adresse masquerade
 ```
 
-Abandon du routeur VyOS
+Changement de la typologie des réseaux: 
+  Réseau NAT -> Réseau Interne
+
+
+Communication du client vers Routeur OK
+
+Communication du routeur vers client FAIL
+
+Problème de pare-feu génant les communications
+
+Changement du routeur : 
+VyOS -> Debian
 
 Création d'une machine avec un OS Debian pour servir de routeur
 
