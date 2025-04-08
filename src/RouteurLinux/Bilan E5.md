@@ -1,3 +1,7 @@
+Schéma de la situation
+
+![image](https://github.com/Mellsx/portfolio/blob/main/src/RouteurLinux/Capture%20d%E2%80%99%C3%A9cran%20du%202025-04-08%2019-07-46.png)
+
 2 réseaux NAT
 
 Vitaux - IPv4 : 10.0.160.0/24
