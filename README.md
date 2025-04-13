@@ -5,8 +5,8 @@ Service Informatique aux Organisations : Solutions d'Infrastructure et Système 
 - [Profil](#profil)
 - [Formation](#formation)
 - [Epreuves](#epreuves)
-  - [Epreuve E4](#epreuve-e4--support-et-mise-%C3%A0-disposition-de-services-informatiques)
-  - [Epreuve E5](#epreuve-e5--administration-des-syst%C3%A8mes-et-des-r%C3%A9seaux)
+  - [Epreuve E5](#epreuve-e4--support-et-mise-%C3%A0-disposition-de-services-informatiques)
+  - [Epreuve E6](#epreuve-e5--administration-des-syst%C3%A8mes-et-des-r%C3%A9seaux)
 
 
 ## Profil
@@ -54,7 +54,7 @@ Le BTS est un diplôme conçu pour une insertion professionnelle. Cependant, ave
 - Mise en place d'un serveur de partage de fichier
 
 ## Epreuves
-### Epreuve E4 : Support et Mise à Disposition de Services Informatiques
+### Epreuve E5 : Support et Mise à Disposition de Services Informatiques
 
 [Fichier Excel](./src/TabRempliTmp.xlsx)
 
@@ -69,4 +69,4 @@ Le BTS est un diplôme conçu pour une insertion professionnelle. Cependant, ave
 | [Installation de VM Windows Server 2019 et Debian](./src/vmInstall/vmInstall-documentation.md) | | X | | | | | X |
 | Simuler un réseau professionnel à partir des outils Virtualbox et GNS3 | | X | | | | X | X |
 
-### Epreuve E5 : Administration des Systèmes et des Réseaux
+### Epreuve E6 : Administration des Systèmes et des Réseaux
