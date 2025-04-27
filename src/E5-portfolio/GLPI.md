@@ -135,3 +135,50 @@ Mot de passe : glpi
 
 ![ModulesGLPI](https://github.com/Mellsx/portfolio/blob/main/src/glpi/inst-glpi-vm-lin-deb-part1-i41_1.png)
 
+
+## Pour relier le serveur GLPI au réseau informatique déjà en place
+
+Dans les paramètres de la vm servant de serveur glpi, désactiver l'interface réseau en accès par pont.
+Paramétrer une nouvelle interface réseau en réseau interne qu'on nommera "Maintenance".
+
+Dans les paramètres de la vm servant de routeur, ajouter une nouvelle interface réseau en réseau interne "Maintenance".
+
+Dans le routeur, aller dans les paramètres réseau et configurer la nouvelle interface (celle qui n'a pas d'adresse IPv4) avec 
+IP : 10.0.170.1
+masque sous-réseaux : 255.255.255.0
+passerelle : 10.170.0.1
+
+Dans le terminal, se connecter en tant que root et saisir :
+ip route add 10.0.170.0/24 via 10.0.170.1
+
+Dans le serveur glpi, aller dans les paramètres réseaux et configurer l'adresse IPv4 de l'interface en manuel, avec :
+IP : 10.0.170.2
+masque sous-réseaux : 255.255.255.0
+passerelle : 10.170.0.1
+
+Pour tester que le serveur fonctionne correctement, il faut se connecter à l'interface glpi depuis la machine cliente sur le réseau "Direction".
+Une fois la VM lancée, ouvrir le navigateur.
+Dans la barre URL, saisir "10.0.170.2/glpi". Vous arriverez sur l'interface de connexion du site.
+Pour vous connecter avec le compte d'un utilisateur classique :
+nom d'utilisateur : normal
+mot de passe : normal
+
+
+
+Fil d'un ticket - test de fonctionnalité
+
+Compte utilisateur : post-only/postonly
+Compte technicien : tech/tech
+
+Se connecter sur le compte utilisateur
+Sur le panneau de menu à gauche, cliquer sur "Create a ticket"
+Choisir le type de ticket, la catégorie (créés par l'administrateur) et l'urgence.
+Saisir le titre et le message.
+Cliquer sur "Submit message" pour soumettre le ticket.
+
+Se connecter au compte technicien
+Cliquer sur l'onglet "Global view" pour voir les tickets qui n'ont été attribué à personne.
+Dans les menus, à droite des statuts, un nombre indique le nombre de ticket en attente pour chacun.
+Une fois le ticket ouvert, pour répondre, cliquer sur "Answer", puis "Save" une fois le message écrit.
+Dans le cas où le message répond à la demande de l'utilisateur, on peut passer le statut du ticket sur "Solved".
+A l'utilisateur, ensuite de confirmer en approuvant la fermeture du ticket. Le statut passe alors en "Closed".
