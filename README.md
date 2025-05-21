@@ -42,16 +42,12 @@ Le BTS est un diplôme conçu pour une insertion professionnelle. Cependant, ave
 - Installation de Windows 10
 - Installation de Windows Server 2019
 - Installation de Debian
-- Mise en place d'une architecture virtuelle avec GNS3
 - Mise en place d'un service GLPI sous Debian
 - Mise en place du controleur de domaine AD DS sous Windows Serveur 2019
 - Mise en place d'un service DNS sous Windows Serveur 2019
 - Mise en place d'un service DHCP sous Windows Serveur 2019
-- Mise en place d'un service DNS sous Debian
 - Segmentation du réseau en VLAN sous Packet Tracer
 - Mise en place d'un pare-feu PfSense
-- Mise en place d'un serveur reverse proxy Nginx
-- Mise en place d'un serveur de partage de fichier
 
 ## Epreuves
 ### Epreuve E5 : Support et Mise à Disposition de Services Informatiques
@@ -62,12 +58,12 @@ Le BTS est un diplôme conçu pour une insertion professionnelle. Cependant, ave
 | --------------------------- | ---------- |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 | [Mise en place d’un serveur Active Directory avec les service AD DS, DNS, DHCP et GPO](./src/E5-portfolio/ADDS.md) | | X | | | | X | |
 | [Mise en place d’un service d’assistance aux utilisateurs du réseau grâce au logiciel GLPI](./src/E5-portfolio/GLPI.md) | | | X | | | X | |
-| Mise en place d’un serveur web Apache avec un serveur Reverse Proxy Nginx | | | | X | | X | |
 | [Segmentation d’un réseau en VLAN sur Packet Tracer](./src/E5-portfolio/vlan.md) | | X | | | | X | |
 | Création d’un portfolio accessible par Internet | | | | X | | | |
 | Projet de prise en main Git et GitHub | | | | X | X | | |
 | [Installation de VM Windows Server 2019 et Debian](./src/E5-portfolio/vmInstall.md) | | X | | | | | X |
-| Simuler un réseau professionnel à partir des outils Virtualbox | | X | | | | X | X |
+| [Simuler un réseau professionnel à partir des outils Virtualbox](./src/E5-portfolio/vmInstall.md) | | X | | | | X | X |
+| [Mise en place d'un pare-feu PfSense](./src/E5-portfolio/pfSense.md) ||||||||
 
 ### Epreuve E6 : Administration des Systèmes et des Réseaux
 #### Projet 1 : Mise en place d'un serveur Active Directory pour administrer un réseau informatique professionnel (avec les services DNS et DHCP)
